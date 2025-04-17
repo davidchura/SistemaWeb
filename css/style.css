@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: #BE3D2A; 
+    --secondary-color: #E78B48; 
+    --background-color: #FFFFFF;
+    --text-color: #333333; 
+    --surface-color: #102E50;
+    --accent-color: #F5C45E;
+    --font-family: 'Urbanist', sans-serif;
+    --color-negro: #000000;
+    --color-gris-claro: #CCCCCC;
+    --espacio-seccion: 90px;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 200;
+    letter-spacing: -3px;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#nosotros{
+    background-color: var(--surface-color);
+    color: var(--background-color);
+}
+#historia{
+    background-color: var(--accent-color);
+    color: var(--color-negro);
+}
+#main-footer{
+    background-color: var(--text-color);
+    color: var(--color-gris-claro);
+    padding: 45px 0;
+}
+.padded{
+    padding-top: var(--espacio-seccion);
+    padding-bottom: var(--espacio-seccion);
+}
